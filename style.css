@@ -1,0 +1,15 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    padding: 20px;
+    background-color: aquamarine;
+    border-radius: 45px;
+}
+button {
+    border-radius: 10px;
+    background-color: aquamarine;
+    margin: 20px;
+    width: 10%;
+}
