@@ -27,7 +27,6 @@ function newGame() {
     }
 }
 
-
 function createNumberBtn() {
     let nrOfButtons = document.getElementById("nrOfBtn").value;
     setBtnRandom(nrOfButtons);
@@ -49,5 +48,3 @@ function createNumberBtn() {
     });
     Game.appendChild(button);
 }
-
-
