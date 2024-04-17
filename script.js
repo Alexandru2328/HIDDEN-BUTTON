@@ -7,7 +7,7 @@ function setBtnRandom(nrOfButtons) {
 function checkWinner(buttonId) {
     if (btnRandom === buttonId) {
         document.getElementById("result").innerText = 
-        "CONGRATULATIONS!! YOU CHOOSE THE CORRECT BUTTON";
+            "CONGRATULATIONS!! YOU CHOOSE THE CORRECT BUTTON";
     } else {
         document.getElementById("result").innerText = "TRY AGAIN";
     }
